@@ -9,7 +9,7 @@ class UserRequest(BaseModel):
 
 @llm_router.post('/llm_resume')
 def resume(request: UserRequest):
-    url = 'https://43182d6aa9af.ngrok-free.app/webhook/llm_resume'
+    url = ''https://dbf00600ca05.ngrok-free.app/signin?redirect=%252F
     
     data = [
         {
